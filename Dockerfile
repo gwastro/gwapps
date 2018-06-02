@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN pip2 install notebook
 
 # install my other stuff
-RUN pip2 install lalsuite pycbc appmodes
+RUN pip2 install lalsuite pycbc appmode
 
 # install ipywidgets
 RUN pip2 install ipywidgets  && \
