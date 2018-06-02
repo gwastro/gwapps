@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python-setuptools     \
     python-wheel          \
     python-pip            \
+    python-dev            \
     less                  \
     nano                  \
     sudo                  \
