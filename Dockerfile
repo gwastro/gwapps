@@ -13,6 +13,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git                   \
     npm                   \
     fftw3                 \
+    build-essential \
+    autoconf \
+    libtool \
+    pkg-config \
   && rm -rf /var/lib/apt/lists/*
 
 # install Jupyter via pip
