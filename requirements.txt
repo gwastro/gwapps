@@ -1,2 +1,4 @@
 lalsuite
 pycbc
+ipywidgets
+appmode
